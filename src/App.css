@@ -1,0 +1,45 @@
+form{
+    height: 200vh;
+    width: 200vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+img{
+    max-width: 300px;
+
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 25px;
+    width: 300px;
+    box-shadow: rgba(78, 76, 76, 0.432);
+}
+
+button{
+    width: 300px;
+    height: 45px;
+    background-color: salmon;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+span {
+    color: rgb(207, 18, 18);
+position: relative;
+}
